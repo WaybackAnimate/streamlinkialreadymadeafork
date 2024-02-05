@@ -292,7 +292,7 @@ class DASHStream(Stream):
         audio: List[Optional[Representation]] = [None] if with_video_only else []
 
         # Search for suitable video and audio representations
-       for aset in mpd.periods[0].adaptationSets:
+       for aset in mpd.periods[period].adaptationSets:
             for rep in aset.representations:
                 if rep.mimeType.startswith("video"):
                     video.append(rep)
