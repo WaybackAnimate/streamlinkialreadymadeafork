@@ -1428,6 +1428,8 @@ _ARGUMENT_TO_SESSIONOPTION: List[Tuple[str, str, Optional[Callable[[Any], Any]]]
     ("hls_segment_ignore_names", "hls-segment-ignore-names", None),
     ("hls_segment_key_uri", "hls-segment-key-uri", None),
     ("hls_audio_select", "hls-audio-select", None),
+    ("ffmpeg_dkey", "ffmpeg_dkey", None),
+    ("ffmpeg_dkey_2", "ffmpeg_dkey_2", None),
     ("dash_manifest_reload_attempts", "dash-manifest-reload-attempts", None),
     ("ffmpeg_ffmpeg", "ffmpeg-ffmpeg", None),
     ("ffmpeg_no_validation", "ffmpeg-no-validation", None),
